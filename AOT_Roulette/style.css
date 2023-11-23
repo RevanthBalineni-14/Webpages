@@ -1,0 +1,89 @@
+/* this is the font we will be using for the webpage */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+/* this will affect the body section as a whole */
+body {
+    background-color: #d2c4ae;
+    margin: auto;
+    text-align: center;
+    /* set margin, text align and body color */
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+}                                           
+
+/* this will affect all the p sections */
+p {
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    margin: 5px;
+}
+
+/* this adjusts the logo to be center, changes the background color, and adds padding */
+#logo {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: #294023;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* this is the header section */
+#header {
+    margin: auto;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    height:auto;
+    width:auto;
+}
+
+/* this is the cookie section adjusting the clickable range */
+#cookie {
+    margin: auto;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* this is where the cookie count will be */
+#numbers {
+    margin: auto;
+    text-align:center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border:5px solid;
+    border-radius:10px;
+    background-color:white;
+    width:200px;
+    height:60px;    
+}
+
+/* this is where the upgrade display will be */
+#upgradeLevel {
+    margin: auto;
+    text-align:center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    background-color: white;
+    border:5px solid;
+    border-radius:10px; 
+    width:350px;
+    height:50px;    
+}
+
+/*this is where the instructions section will be */
+#instructions {
+    margin: auto;
+    height: auto;
+    width: 500px;
+    border:5px solid;
+    border-radius:10px;
+    color: white;
+}

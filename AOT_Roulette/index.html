@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<!--all of our html will be contained within this-->
+<html>
+    <!--this is how we load our javascript file and css file upon loading the webpage-->
+    <head>
+        <script type="text/javascript" src="cookie.js"></script>
+        <!--Insert title here-->
+        <title>Character Roulette</title>
+        <link rel = "stylesheet" href = "style.css"/>
+        <link rel="icon" type="image/png" href="imgs/Wings.jpg" sizes="32x32">
+    </head>
+
+    <!--this is how we add all of the elements to the webpage-->
+    <body>
+
+        <!--this is where our logo will be contained within-->
+        <div id="logo">
+            <!-- insert image and link it to UB ACM -->
+            <img src="imgs/Attack_on_Titan.png" width="150px">
+ 
+        </div>
+        
+        <!--this is where the cookie game elements will be contained within-->
+        <div id="cookie-game">
+
+            <!--this is our header-->
+            <div id="header1">Attack On Titan Character Roulette!</div>
+
+            <!--this is our cookie and js clicker function-->
+            <!-- Add onclick function here -->
+            <div id="cookie" onclick="cookieClick()"> 
+                <img id = "cookieimg" src="imgs/Characters/Eren.jpg" width="200px">
+            </div>
+            
+            <!--this is our cookie count-->
+            <p>Number of Clicks</p>
+            <div id="numbers"></div>
+    
+            <!--this is our level display-->
+            <p>Character Name</p>
+            <div id= "upgradeLevel"></div>
+
+            <!--this is our instructions section-->
+            <div id="instructions">
+                <!-- Add instructions text here -->
+                <p>Click the character to change it!</p>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
+
